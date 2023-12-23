@@ -185,12 +185,7 @@ input[type="checkbox"] {
   color: #fff;
   padding: 8px 11px;
 }
-.header-menus .header-social {
-  display: none;
-}
-.header-menus .help-number {
-  display: none;
-}
+
 /* 1000 */
 @media screen and (max-width: 1000px) {
   .header-menus {
@@ -324,5 +319,11 @@ input[type="checkbox"] {
   }
   .page-numbers {
     margin: 0 auto;
+  }
+  .header-menus .header-social {
+    display: none;
+  }
+  .header-menus .help-number {
+    display: none;
   }
 }
